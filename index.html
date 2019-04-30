@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet"> 
+	<script src='https://d3js.org/d3.v5.min.js' charset='utf-8'></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 id="title">What's your graph?</h1>
+		<h5>Autor: Matías Gabler</h5>
+		<p>En este sitio web podrás ingresar tu nombre y apellido para descubrir la red que te representa. ¿Cuál será su forma?¿Cuál será su color? 'What's your graph?' te permite visualizar tu nombre y el de tus amigos para compartirlos o compararlos. Siempre se puede aprender algo nuevo de uno mismo :)</p>
+		<p></p>
+		
+		<hr>
+		
+		<input id="first_name" type="text" placeholder="Nombre">
+		<input id="last_name" type="text" placeholder="Apellido">
+		<input id="submit" type="button" value="Submit">
+		<script src='script.js' charset='utf-8'></script>
+		<div id="container">
+			<script src='graph.js' charset='utf-8'></script>
+		</div>
+		<script src='reset.js' charset='utf-8'></script>
+		
+	</div>
+	
+</body>
+</html>
